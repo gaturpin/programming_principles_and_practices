@@ -1,0 +1,28 @@
+Literals - Constants - value is obvious
+
+
+lvalue - something that points to a specific memory location
+rvalue - doesn't point anywhere
+eg:
+	int x = 100;
+
+100 - rvalue
+x - lvalue
+
+Constant expressions:
+	- const
+	- can't give it a new value after it has been initialized]
+	- const double pi = 3.141 
+	pi = 7 --> error
+
+
+if (x==5);	 - legal but does nothing
+	{y = 3;} - will be assigned regardless of if statement
+
+
+if()
+else if()
+else
+
+not an else-if statement. It's an else followed by if.
+

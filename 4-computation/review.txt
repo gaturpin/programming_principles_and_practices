@@ -1,0 +1,111 @@
+1. 	What is a computation?
+	Producing output based on some input
+
+2. 	What do we mean by inputs and outputs to a computation?
+	Something going into and out of a computer
+
+3. 	Three requirements a programmer should keep in mind when expressing 	computations?
+	- correctly
+	- simply
+	- efficiently
+
+4. 	What does an expression do?
+	Computes a value from a number of operands
+
+5. 	What is the difference between a statement and an expression?
+	statement - tells computer to perform specific task
+	expression - computes a value
+
+6. 	What is an lvalue?
+	expression that identifies an object
+
+	Operators that require lvalues:
+	asignment a = 1;
+	increment ++a;
+	address of &a;
+
+7. 	What is a const expression?
+	Value can't change after initialisation
+
+8. 	What is a literal?
+	Represents values of various types
+ 	literal 12 - represents value twelve
+ 	literal "hi" - represents characters hi
+
+9.	What is a symbolic constant?
+	Name as identifier, e.g. pi etc.
+
+10. What is a magic constant?
+	Non-obvious literals in code
+	3e8 - speed of light but not mentioned
+
+11.	Operators we can use for integers and floating-points?
+	+, -, *, /, <, >, <= etc.
+
+12.	Operators on ints but not floats?
+	++, --, %
+
+13.	Operators on strings?	
+	<<, >>, +, !=, ==
+
+14.	When would a programmer prefer switch statement to an if statement?
+	Clearer than nested if's if comparing a value
+
+15.	common problems with switch statements?
+	No break;
+	can't use strings
+	case labels must be constants
+
+16.	Function of each part of the header line in a for loop?
+	starts at, ends with, incrememnt
+
+17.	When should for and while loops be used?
+	while loop when you have condition but don't know when to stop
+
+18.	How do you print numeric value of char?
+	char = 'c'
+	value = int(char)
+
+19.	Describe what the line char foo(int x) means in a function definition.
+	function has type char, name foo and takes x as an integer
+
+20.	When should you define a separate function for part of a program?
+	When you need to reuse the same piece of code
+
+21.	What can you do to an int that you cannot do to a string?
+	few things
+
+22.	String but not to int?
+	few things
+
+23.	Index of 3rd element in vector?
+	[2]
+
+24.	How to write a for loop that prints every element of a vector?
+	c++11:
+	for(auto i: vector){
+		cout << i
+	}
+
+25.	What does vector<char> alphabet(26); do?
+	init a blank vector of chars with 26 elements.
+
+26.	What does push_back() do?
+	adds element with value to vector
+
+27.	What do vector member functions begin() end and size do?
+	begin() - beginning of vector
+	end() - end
+	size() - gets size
+
+28. What makes vector so popular/useful?
+	No need to specify size at initialisation
+
+29.	How do you sort elements of a vector?
+	sort(vector.begin(), vector.end())
+
+
+
+
+
+
